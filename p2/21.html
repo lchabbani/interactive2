@@ -25,7 +25,7 @@ text-align: center;
 .ani {
     width: 500px;
     height: 500px;
-    background-color: black;
+    background-color: yellow;
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
     animation-name: example;
@@ -34,14 +34,14 @@ text-align: center;
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
-    from {background-color: black;}
-    to {background-color: yellow;}
+    from {background-color: yellow;}
+    to {background-color: black;}
 }
 
 /* Standard syntax */
-@keyframes example {
-    from {background-color: black;}
-    to {background-color: yellow;}
+@keyframes example 
+    from {background-color: yellow;}
+    to {background-color: black;}
 }
 
 </style>
