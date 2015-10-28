@@ -1,0 +1,44 @@
+body { background: red; }
+.background {
+border: 5px solid black;
+margin: 0 auto;
+
+
+}
+
+h1 { font-family: sans-serif;
+text-align: center;}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  body { background: url('images/Z01.jpg');  }
+  h1 { font-family: serif;  }
+  div { border-radius: 20%; }
+
+}
+
+@media screen and (max-width: 768px) {
+  body { body { background: url('images/Z02.jpg');   }
+   h1 { font-family: courier;  }
+   div { border-radius: 40%; }
+
+}
+
+@media screen and (max-width: 600px) {
+  body { }
+  h1 { font-family: cursive;} 
+   div { border-radius: 60%; }
+}
+
+@media screen and (max-width: 480px) {
+  body { background: cyan; }
+  div { border-radius: 80%; }
+}
+
+@media screen and (max-width: 320px) {
+  body { background: magenta; }
+  div { border-radius: 100%; }
+}
