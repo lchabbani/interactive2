@@ -1,0 +1,324 @@
+.letter {
+height:148px;
+background: yellow;
+display: inline-block;
+}
+
+.A {
+	width:75px;
+	position: relative;
+
+}
+
+.A .left {
+width: 19px;
+height: 148px;
+left:0;
+background: black;
+top:0;
+left:0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.A .right {
+width: 19px;
+height: 148px;
+background: black;
+top:0;
+left:0;
+right:0;
+left: 56px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.A .top {
+width: 60px;
+height: 7px;
+background: black;
+top:0;
+
+right:0;
+left: 3px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.A .middle {
+width: 60px;
+height: 7px;
+background: black;
+top:76px;
+left:0;
+right:0;
+left: 0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.B {
+	width:75px;
+	position: relative;
+
+}
+
+.B .left {
+width: 19px;
+height: 148px;
+left:0;
+background: black;
+top:0;
+left:0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.B .bar-top-1 {
+
+    background: black;
+    width: 7px;
+    height: 36px;
+    background: #000000;
+    position: absolute;
+    top: 0px;
+    transform: skew(58deg,0);
+    left: 42px;
+    border-radius: 6px;
+}
+
+.B .bar-top-2 {
+    background: black;
+    width: 7px;
+    height: 36px;
+    background: #000000;
+    position: absolute;
+    top: 36px;
+    transform: skew(-58deg,0);
+    left: 42px;
+    border-radius: 6px;
+}
+
+
+
+
+
+.B .bar-bottom-1 {
+    background: black;
+    width: 7px;
+    height: 36px;
+    background: #000000;
+    position: absolute;
+    top: 76px;
+    transform: skew(58deg,0);
+    left: 42px;
+    border-radius: 6px;
+
+
+}
+
+.B .bar-bottom-2 {
+    background: black;
+    width: 7px;
+    height: 36px;
+    background: #000000;
+    position: absolute;
+    top: 112px;
+    transform: skew(-58deg,0);
+    left: 42px;
+    border-radius: 6px;
+}
+
+.C {
+	width:75px;
+	position: relative;
+
+}
+
+
+
+.C .left {
+width: 19px;
+height: 148px;
+background: black;
+top:0;
+left:0;
+right:0;
+left: 0px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.C .top {
+width: 75px;
+height: 7px;
+background: black;
+top:0;
+
+right:0;
+left: 0px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.C .bottom {
+width: 75px;
+height: 7px;
+background: black;
+top:141px;
+left:0;
+right:0;
+left: 0;
+position: absolute;
+border-radius: 6px; 
+}
+
+
+.D {
+	width:75px;
+	position: relative;
+
+}
+
+.D .left {
+width: 19px;
+height: 148px;
+left:0;
+background: black;
+top:0;
+left:0;
+position: absolute;
+border-radius: 6px; 
+}
+
+
+.D .top {
+	    background: black;
+    width: 7px;
+    height: 74px;
+    background: #000000;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    transform: skew(39deg,0);
+    left: 38px;
+    border-radius: 6px;
+}
+
+.D .bottom {
+
+    background: black;
+    width: 7px;
+    height: 72px;
+    background: #000000;
+    position: absolute;
+    left: 10px;
+    top: 74px;
+    transform: skew(-39deg,0);
+    left: 38px;
+    border-radius: 6px;
+}
+
+.E {
+	width:75px;
+	position: relative;
+
+}
+
+
+
+.E .left {
+width: 19px;
+height: 148px;
+background: black;
+top:0;
+left:0;
+right:0;
+left: 0px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.E .top {
+width: 75px;
+height: 7px;
+background: black;
+top:0;
+
+right:0;
+left: 0px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.E .bottom {
+width: 75px;
+height: 7px;
+background: black;
+top:141px;
+left:0;
+right:0;
+left: 0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.E .middle {
+width: 75px;
+height: 7px;
+background: black;
+top:76px;
+left:0;
+right:0;
+left: 0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.F {
+	width:75px;
+	position: relative;
+
+}
+
+
+
+.F .left {
+width: 19px;
+height: 148px;
+background: black;
+top:0;
+left:0;
+right:0;
+left: 0px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.F .top {
+width: 75px;
+height: 7px;
+background: black;
+top:0;
+
+right:0;
+left: 0px;
+position: absolute;
+border-radius: 6px; 
+}
+
+
+
+.F .middle {
+width: 75px;
+height: 7px;
+background: black;
+top:76px;
+left:0;
+right:0;
+left: 0;
+position: absolute;
+border-radius: 6px; 
+}
+
+
