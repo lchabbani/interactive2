@@ -1,7 +1,9 @@
-body { background: red; }
+body { background: url('images/5.jpg') }
 .background {
-border: 5px solid black;
+border: 2px dotted aqua;
 margin: 0 auto;
+margin-top: 380px;
+width: 200px;
 
 
 }
@@ -14,31 +16,31 @@ text-align: center;}
 
 
 @media screen and (max-width: 1024px) {
-  body { background: url('images/Z01.jpg');  }
+  body { background: url('images/1.jpg');  }
   h1 { font-family: serif;  }
-  div { border-radius: 20%; }
+  div { border-radius: 10%; }
 
 }
 
 @media screen and (max-width: 768px) {
-  body { body { background: url('images/Z02.jpg');   }
+  body { background: url('images/2.jpg');   }
    h1 { font-family: courier;  }
-   div { border-radius: 40%; }
+   div { border-radius: 30%; }
 
 }
 
 @media screen and (max-width: 600px) {
-  body { }
+  body {background: url('images/3.jpg'); }
   h1 { font-family: cursive;} 
-   div { border-radius: 60%; }
+   div { border-radius: 50%; }
 }
 
 @media screen and (max-width: 480px) {
-  body { background: cyan; }
-  div { border-radius: 80%; }
+  body { background: url('images/4.jpg'); }
+  div { border-radius: 70%; }
 }
 
 @media screen and (max-width: 320px) {
-  body { background: magenta; }
+  body { background: url('images/5.jpg'); }
   div { border-radius: 100%; }
 }
