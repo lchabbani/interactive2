@@ -75,27 +75,26 @@ border-radius: 6px;
 }
 
 .B .bar-top-1 {
-
     background: black;
-    width: 7px;
+    width: 11px;
     height: 36px;
     background: #000000;
     position: absolute;
     top: 0px;
     transform: skew(58deg,0);
-    left: 42px;
+    left: 38px;
     border-radius: 6px;
 }
 
 .B .bar-top-2 {
     background: black;
-    width: 7px;
+    width: 11px;
     height: 36px;
     background: #000000;
     position: absolute;
     top: 36px;
     transform: skew(-58deg,0);
-    left: 42px;
+    left: 38px;
     border-radius: 6px;
 }
 
@@ -105,13 +104,13 @@ border-radius: 6px;
 
 .B .bar-bottom-1 {
     background: black;
-    width: 7px;
+    width: 11px;
     height: 36px;
     background: #000000;
     position: absolute;
     top: 76px;
     transform: skew(58deg,0);
-    left: 42px;
+    left: 38px;
     border-radius: 6px;
 
 
@@ -119,13 +118,13 @@ border-radius: 6px;
 
 .B .bar-bottom-2 {
     background: black;
-    width: 7px;
+    width: 11px;
     height: 36px;
     background: #000000;
     position: absolute;
     top: 112px;
     transform: skew(-58deg,0);
-    left: 42px;
+    left: 38px;
     border-radius: 6px;
 }
 
@@ -609,6 +608,52 @@ border-radius: 6px;
 }
 
 
+.N {
+    width:75px;
+    position: relative;
+
+}
+
+.N .left {
+width: 19px;
+height: 148px;
+left:0;
+background: black;
+top:0;
+left:0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.N .right {
+width: 19px;
+height: 148px;
+background: black;
+top:0;
+left:0;
+right:0;
+left: 56px;
+position: absolute;
+border-radius: 6px; 
+}
+
+
+.N .middle {
+        background: black;
+    width: 7px;
+    height: 148px;
+    background: #000000;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    transform: skew(16deg,0);
+    left: 34px;
+    border-radius: 6px;
+}
+
+
+
+
 .O {
     width:75px;
     position: relative;
@@ -662,3 +707,515 @@ position: absolute;
 border-radius: 6px; 
 }
 
+.P {
+    width:75px;
+    position: relative;
+
+}
+
+.P .left {
+width: 19px;
+height: 148px;
+left:0;
+background: black;
+top:0;
+left:0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.P .bar-top-1 {
+    background: black;
+    width: 11px;
+    height: 36px;
+    background: #000000;
+    position: absolute;
+    top: 0px;
+    transform: skew(58deg,0);
+    left: 38px;
+    border-radius: 6px;
+}
+
+.P .bar-top-2 {
+    background: black;
+    width: 11px;
+    height: 36px;
+    background: #000000;
+    position: absolute;
+    top: 36px;
+    transform: skew(-58deg,0);
+    left: 38px;
+    border-radius: 6px;
+}
+
+
+
+
+
+.Q {
+    width:75px;
+    position: relative;
+
+}
+
+.Q .left {
+width: 19px;
+height: 148px;
+left:0;
+background: black;
+top:0;
+left:0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.Q .right {
+width: 19px;
+height: 148px;
+background: black;
+top:0;
+left:0;
+right:0;
+left: 56px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.Q .top {
+width: 60px;
+height: 7px;
+background: black;
+top:0;
+
+right:0;
+left: 3px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.Q .bottom {
+width: 70px;
+height: 7px;
+background: black;
+top:141px;
+left:0;
+right:0;
+left: 0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.Q .middle {
+    width: 51px;
+    height: 7px;
+    background: black;
+    top: 108px;
+    left: 40px;
+    right: 0;
+    position: absolute;
+    border-radius: 6px;
+}
+
+
+.R {
+    width:75px;
+    position: relative;
+
+}
+
+.R .left {
+width: 19px;
+height: 148px;
+left:0;
+background: black;
+top:0;
+left:0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.R .bar-top-1 {
+    background: black;
+    width: 11px;
+    height: 36px;
+    background: #000000;
+    position: absolute;
+    top: 0px;
+    transform: skew(58deg,0);
+    left: 38px;
+    border-radius: 6px;
+}
+
+.R .bar-top-2 {
+    background: black;
+    width: 11px;
+    height: 36px;
+    background: #000000;
+    position: absolute;
+    top: 36px;
+    transform: skew(-58deg,0);
+    left: 38px;
+    border-radius: 6px;
+}
+
+.R .bottom {
+
+    background: black;
+    width: 7px;
+    height: 72px;
+    background: #000000;
+    position: absolute;
+    left: 10px;
+    top: 74px;
+    transform: skew(39deg,0);
+    left: 38px;
+    border-radius: 6px;
+}
+
+
+.S {
+    width:75px;
+    position: relative;
+
+}
+
+.S .left {
+    width: 19px;
+    height: 60px;
+    left: 0;
+    background: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 6px; 
+}
+
+.S .right {
+    width: 19px;
+    height: 60px;
+    background: black;
+    top: 88px;
+    left: 0;
+    right: 0;
+    left: 56px;
+    position: absolute;
+    border-radius: 6px;
+}
+
+.S .top {
+    width: 75px;
+    height: 7px;
+    background: black;
+    top: 0;
+    right: 0;
+    left: 0px;
+    position: absolute;
+    border-radius: 6px;
+}
+
+.S .bottom {
+    width: 70px;
+    height: 7px;
+    background: black;
+    top: 141px;
+    left: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 6px;
+}
+
+.S .middle {
+   background: black;
+    width: 25px;
+    height: 37px;
+    background: #000000;
+    position: absolute;
+    left: 10px;
+    top: 56px;
+    transform: skew(58deg,0);
+    left: 25px;
+    border-radius: 6px;
+}
+
+
+
+.T {
+    width:75px;
+    position: relative;
+
+}
+
+
+
+.T .middle {
+width: 19px;
+height: 148px;
+background: black;
+top:0;
+left:28px;
+right:0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.T .top {
+width: 75px;
+height: 7px;
+background: black;
+top:0;
+
+right:0;
+left: 0px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.U {
+    width:75px;
+    position: relative;
+
+}
+
+.U .left {
+width: 19px;
+height: 148px;
+left:0;
+background: black;
+top:0;
+left:0;
+position: absolute;
+border-radius: 6px; 
+}
+
+.U .right {
+width: 19px;
+height: 148px;
+background: black;
+top:0;
+left:0;
+right:0;
+left: 56px;
+position: absolute;
+border-radius: 6px; 
+}
+
+
+.U .bottom {
+width: 70px;
+height: 7px;
+background: black;
+top:141px;
+left:0;
+right:0;
+left: 0;
+position: absolute;
+border-radius: 6px; 
+}
+
+
+
+.V {
+    width:75px;
+    position: relative;
+
+
+}
+
+.V .left {
+    width: 19px;
+    height: 148px;
+    left: 0;
+    background: black;
+    top: 0;
+    left: 16px;
+    position: absolute;
+    border-radius: 6px;
+    transform: skew(11deg,0);
+}
+
+.V .right {
+    width: 7px;
+    height: 148px;
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 56px;
+    position: absolute;
+    border-radius: 6px;
+    transform: skew(-10deg,0);
+}
+
+.W {
+    width:141px;
+    position: relative;
+
+
+}
+
+.W .left {
+    width: 19px;
+    height: 148px;
+    left: 0;
+    background: black;
+    top: 0;
+    left: 16px;
+    position: absolute;
+    border-radius: 6px;
+    transform: skew(11deg,0);
+}
+
+.W .right {
+    width: 7px;
+    height: 148px;
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 56px;
+    position: absolute;
+    border-radius: 6px;
+    transform: skew(-10deg,0);
+}
+
+.W .box1{
+    background-color: yellow;
+    width:75px;
+    position: relative;
+    position: inline-block;
+
+}
+.W .box2{
+    background-color: yellow;
+    width:75px;
+    position: relative;
+    position: inline-block;
+    left: 65px;
+
+}
+
+
+
+
+.X {
+    width:75px;
+    position: relative;
+
+}
+
+.X .left {
+    width: 19px;
+    height: 148px;
+    left: 0;
+    background: black;
+    top: 0;
+    left: 28px;
+    position: absolute;
+    border-radius: 6px;
+    transform: skew(22deg,0);
+}
+
+.X .right {
+    width: 7px;
+    height: 148px;
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 35px;
+    position: absolute;
+    border-radius: 6px;
+    transform: skew(-25deg,0);
+}
+
+
+.Y {
+    width:75px;
+    position: relative;
+
+}
+
+.Y .left {
+    width: 19px;
+    height: 75px;
+    left: 0;
+    background: black;
+    top: 0;
+    left: 13px;
+    position: absolute;
+    border-radius: 6px;
+    transform: skew(22deg,0);
+}
+
+.Y .right {
+   width: 7px;
+    height: 74px;
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 53px;
+    position: absolute;
+    border-radius: 6px;
+    transform: skew(-22deg,0);
+}
+
+.Y .bottom {
+    width: 19px;
+    height: 81px;
+    background: black;
+    top: 67px;
+    left: 28px;
+    right: 0;
+    position: absolute;
+    border-radius: 6px;
+}
+
+
+
+
+.Z {
+    width:75px;
+    position: relative;
+
+}
+
+
+
+.Z .middle {
+    background: black;
+    width: 19px;
+    height: 148px;
+    background: #000000;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    transform: skew(-22deg,0);
+    left: 28px;
+    border-radius: 6px;
+}
+
+.Z .top {
+width: 75px;
+height: 7px;
+background: black;
+top:0;
+
+right:0;
+left: 0px;
+position: absolute;
+border-radius: 6px; 
+}
+
+.Z .bottom {
+width: 75px;
+height: 7px;
+background: black;
+top:141px;
+left:0;
+right:0;
+left: 0;
+position: absolute;
+border-radius: 6px; 
+}
