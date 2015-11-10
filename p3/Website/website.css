@@ -1,7 +1,7 @@
 body {
 
 margin: 0 auto;
-width: 2900px; 
+width:  2900px; 
 background-color: #DDDDDD;
 
 
@@ -15,6 +15,11 @@ background-color: #DDDDDD;
 
 .container {
     transform: scale(0.3);
+    width: 2900px;
+    position: absolute;
+ 
+    padding-left:0;
+   
 }
 
 .container2 {
@@ -48,6 +53,11 @@ display: inline-block;
 padding-right: 5px;
 padding-bottom: 15px;
 
+}
+
+.space {
+    width:63px;
+    height: 148px;
 }
 
 .A {

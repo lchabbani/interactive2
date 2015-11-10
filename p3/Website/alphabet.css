@@ -29,6 +29,29 @@ background-color: #DDDDDD;
 }
 
 
+.letters{
+    text-align: center;
+    width: 7px;
+    height: 148px;
+    position: fixed;
+    top: 0;
+    left: 47px;
+    background-color: #56b4aa;
+    border-radius: 6px; 
+
+}
+
+.numbers{
+    text-align: center;
+    width: 7px;
+    height: 148px;
+    position: fixed;
+    top: 0;
+    left: 30px;
+    background-color: #56b4aa;
+    border-radius: 6px; 
+
+}
 
 
 .letter {
@@ -36,6 +59,9 @@ height:148px;
 display: inline-block;
   margin-right: 16px;
 }
+
+
+
 
 .A {
 	width:75px;

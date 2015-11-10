@@ -58,8 +58,8 @@ font-family: sans-serif;
  position: absolute;
  margin:  auto;
  margin-top: 178px;  
-margin-left: 30px; 
-width: 100px;   
+margin-left: 18px; 
+width: 150px;   
 }
 
 .big-container
@@ -107,7 +107,7 @@ width: 100px;
       height:200px;
     width:75px;
     left: 50px;
-    top: 0px;
+    top: 200px;
     position: relative;
 }
 
@@ -305,6 +305,18 @@ left:8px;
     position: fixed;
     top: 0;
     left: 30px;
+    background-color: #56b4aa;
+    border-radius: 6px; 
+
+}
+
+.numbers{
+    text-align: center;
+    width: 7px;
+    height: 148px;
+    position: fixed;
+    top: 0;
+    left: 47px;
     background-color: #56b4aa;
     border-radius: 6px; 
 

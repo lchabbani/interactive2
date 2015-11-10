@@ -46,5 +46,21 @@ for (i = 0; i < letters3.length; i++) {
 $('.letters3').html(letterArray);
 
 
+var letters4 = $('.letters4').html().split('');
+var letterArray = [];
+
+for (i = 0; i < letters4.length; i++) {
+    console.log(letters4[i]);
+ 
+    var character = letters4[i];
+    var chracterDefinition = $('.letter-definition[data-character="' + character + '"]').html();
+    var characterHTML = '<div class="letter" data-character="' + character + '">' + chracterDefinition + '</div>';
+    
+    letterArray.push(characterHTML);
+};
+
+$('.letters4').html(letterArray);
+
+
 
 
