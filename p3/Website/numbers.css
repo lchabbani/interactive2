@@ -12,7 +12,7 @@ p {
 font-family: sans-serif;
 margin-top: -100px;
 margin-left: 350px;
-color: #56b4aa;
+color: black;
 font-size: 30px;
 width:500px;
 
@@ -35,7 +35,7 @@ width:500px;
     height: 148px;
     position: fixed;
     top: 0;
-    background-color: #56b4aa;
+    background-color: orange;
     border-radius: 6px; 
 
 }
@@ -49,7 +49,7 @@ width:500px;
     position: fixed;
     top: 0;
     left: 30px;
-    background-color: #56b4aa;
+    background-color: orange;
     border-radius: 6px; 
 
 }
@@ -61,7 +61,7 @@ width:500px;
     position: fixed;
     top: 0;
     left: 47px;
-    background-color: #56b4aa;
+    background-color: orange;
     border-radius: 6px; 
 
 }

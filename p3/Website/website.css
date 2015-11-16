@@ -1,51 +1,125 @@
 body {
-
-margin: 0 auto;
-width:  2900px; 
-background-color: #DDDDDD;
-
-
+    background-color: #DDDDDD;
 }
 
 
 .letter-definition {
     display: none;
 
+
 }
 
 .container {
-    transform: scale(0.3);
-    width: 2900px;
-    position: absolute;
- 
-    padding-left:0;
-   
+    transform: scale(1);
+    margin: 50px 150px;
+    width: 1060px;
 }
 
+
+/*.blue {
+
+    background-color: blue;
+
+}*/
+
+.container .letter {
+transform: scale(0.6);
+margin: -13px;
+margin-bottom: -99px;
+/*background-color: aqua;*/
+}
+
+.container1 {      
+/*background-color:yellow;*/
+margin-top: 100px;    
+width:265px;
+height: 100px;
+transform: scale(0.5);
+padding:0px;  
+display: inline-block; 
+border-radius: 6px; 
+margin-right: -50px;
+padding-left: 20px;
+border-bottom: yellow solid 20px;
+}
+
+
 .container2 {
-background-color:#56b4aa;
-margin-top: 200px;    
-width:1140px;
-    height: auto;
-   transform: scale(0.6);
-   padding:20px;  
-   display: inline-block; 
-   border-radius: 6px; 
+/*background-color:orange;*/
+margin-top: 100px;    
+width:254px;
+height: 100px;
+transform: scale(0.5);
+padding:0px;  
+display: inline-block; 
+border-radius: 6px; 
+margin-right: -50px;
+padding-left: 20px;
+border-bottom: orange solid 20px;
     
 }
 
-.container3 {
-background-color:#56b4aa;
-margin-top: 200px;    
-width:4 00px;
-    height: auto;
-   transform: scale(0.6);
-   padding:20px; 
-   left: 500px;  
-   display: inline-block; 
-   border-radius: 6px;
 
+.container3  {
+background-color:yellow;
+margin-top: 0px;    
+width:438px;
+height: 130px;
+transform: scale(0.5);
+padding:10px;  
+display: inline-block; 
+border-radius: 6px;
+margin-right: -100px; 
 }
+
+.container4  {
+/*background-color:red;*/
+margin-top: 100px;    
+width:170px;
+height: 100px;
+transform: scale(0.5);
+padding:0px; 
+padding-top: 0px;
+padding-bottom: 0px; 
+padding-left: 20px; 
+display: inline-block; 
+border-radius: 6px;
+margin-right: -100px;
+border-bottom: red solid 20px; 
+}
+
+
+/*Animation*/ 
+
+/*.flip-container {
+  
+  perspective: 600;
+  position: relative;
+  
+}
+.flip {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.flip:hover {
+  transform: rotateY(180deg) ;
+}
+.flip .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.card .back {
+  transform: rotateY(180deg);
+}*/
+
+
+/*End of animation*/
+
 
 .letter {
 height:148px;
@@ -56,14 +130,15 @@ padding-bottom: 15px;
 }
 
 .space {
-    width:63px;
+    width:40px;
     height: 148px;
 }
 
 
 .A {
-	width:75px;
-	position: relative;
+    width:75px;
+    position: relative;
+
 
 
 }
@@ -77,6 +152,7 @@ top:0;
 left:0;
 position: absolute;
 border-radius: 6px; 
+
 }
 
 .A .right {
@@ -116,8 +192,8 @@ border-radius: 6px;
 }
 
 .B {
-	width:75px;
-	position: relative;
+    width:75px;
+    position: relative;
 
 }
 
@@ -187,8 +263,8 @@ border-radius: 6px;
 }
 
 .C {
-	width:75px;
-	position: relative;
+    width:75px;
+    position: relative;
 
 }
 
@@ -232,8 +308,8 @@ border-radius: 6px;
 
 
 .D {
-	width:75px;
-	position: relative;
+    width:75px;
+    position: relative;
 
 }
 
@@ -250,7 +326,7 @@ border-radius: 6px;
 
 
 .D .top {
-	    background: black;
+        background: black;
     width: 7px;
     height: 74px;
     background: #000000;
@@ -277,8 +353,8 @@ border-radius: 6px;
 }
 
 .E {
-	width:75px;
-	position: relative;
+    width:75px;
+    position: relative;
 
 }
 
@@ -333,8 +409,8 @@ border-radius: 6px;
 }
 
 .F {
-	width:75px;
-	position: relative;
+    width:75px;
+    position: relative;
 
 }
 
@@ -667,7 +743,7 @@ border-radius: 6px;
 
 
 .M {
-width:120px;
+width:98px;
 position: relative;
 
 }
@@ -1164,8 +1240,9 @@ border-radius: 6px;
 }
 
 .W {
-    width:141px;
+    width:110px;
     position: relative;
+    margin-left: -15px;
 
 
 }
@@ -2169,17 +2246,17 @@ border-radius: 6px;
 }
 
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+/*@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .fade-in {
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  opacity:0;  
+  -webkit-animation:fadeIn ease-in 1;  
   -moz-animation:fadeIn ease-in 1;
   animation:fadeIn ease-in 1;
 
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -webkit-animation-fill-mode:forwards;   
   -moz-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
 
@@ -2355,4 +2432,4 @@ border-radius: 6px;
   -webkit-animation-delay: 10.6s;
   -moz-animation-delay: 10.6s;
   animation-delay: 10.6s;
-}
+}*/

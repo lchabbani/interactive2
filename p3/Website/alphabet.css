@@ -6,12 +6,16 @@ background-color: #DDDDDD;
 
 }
 
+
+
 .container
 {
     margin: 0 auto;
-    width:1000px;
-    height: 500px;
-    margin-top: 200px;
+    width:900px;
+    height: 1300px;
+    margin-top: 50px;
+    /*background-color: yellow;*/
+    padding-top: 20px;
 
 
 }
@@ -23,7 +27,7 @@ background-color: #DDDDDD;
     height: 148px;
     position: fixed;
     top: 0;
-    background-color: #56b4aa;
+    background-color: yellow;
     border-radius: 6px; 
     left: 0px;
 
@@ -37,7 +41,7 @@ background-color: #DDDDDD;
     position: fixed;
     top: 0;
     left: 47px;
-    background-color: #56b4aa;
+    background-color: yellow;
     border-radius: 6px; 
 
 }
@@ -49,7 +53,7 @@ background-color: #DDDDDD;
     position: fixed;
     top: 0;
     left: 30px;
-    background-color: #56b4aa;
+    background-color: yellow;
     border-radius: 6px; 
 
 }
@@ -58,7 +62,6 @@ background-color: #DDDDDD;
 .letter {
 height:148px;
 display: inline-block;
-  margin-right: 16px;
 }
 
 
@@ -67,6 +70,7 @@ display: inline-block;
 .A {
 	width:75px;
 	position: relative;
+    /*padding: 50px;*/
 
 }
 
@@ -188,9 +192,94 @@ border-radius: 6px;
     border-radius: 6px;
 }
 
+/*ANIMATION*/
+
+/*B flipped*/
+.flipped{
+-moz-transform: scaleX(-1); /* For Mozilla Firefox */
+-o-transform: scaleX(-1);   /* For Opera */
+-webkit-transform: scaleX(-1); /* For Safari, Google chrome */
+ 
+/* For IE */
+filter: FlipH;
+-ms-filter: "FlipH";
+    }
+/*B flipped*/
+
+
+/* random effect */
+
+.card.effect__random.flipped .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__random.flipped .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+/* random effect */
+
+/* css animation */
+
+.card {
+  position: relative;
+  float: left;
+  padding-bottom: 70px;
+  padding-right: 5px;
+  width: 80px;
+  text-align: center;
+  margin-left: 70px;
+
+  
+
+}
+
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75px;
+
+}
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.5s;
+          transition: transform 0.5s;
+}
+
+.card__front {
+  /*background-color: #ff5078;*/
+
+}
+
+.card__back {
+  /*background-color: #1e1e1e;*/
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+
+/* css animation */
+
+
+
+/*ANIMATION*/
+
+
+
+
+
+
 .C {
 	width:75px;
 	position: relative;
+    
 
 }
 
@@ -231,6 +320,12 @@ left: 0;
 position: absolute;
 border-radius: 6px; 
 }
+
+
+
+
+
+
 
 
 .D {
@@ -281,6 +376,7 @@ border-radius: 6px;
 .E {
 	width:75px;
 	position: relative;
+    
 
 }
 
@@ -729,6 +825,7 @@ border-radius: 6px;
 .N {
     width:75px;
     position: relative;
+    margin-left: 40px;
 
 }
 
@@ -775,6 +872,7 @@ border-radius: 6px;
 .O {
     width:75px;
     position: relative;
+    margin-left: 40px;
 
 }
 
@@ -825,9 +923,15 @@ position: absolute;
 border-radius: 6px; 
 }
 
+
+
+
+
+
 .P {
     width:75px;
     position: relative;
+
 
 }
 
@@ -873,6 +977,7 @@ border-radius: 6px;
 .Q {
     width:75px;
     position: relative;
+   
 
 }
 
@@ -994,6 +1099,9 @@ border-radius: 6px;
 .S {
     width:75px;
     position: relative;
+ /*   margin-left: 150px;
+    margin-top: -70px;*/
+
 
 }
 
@@ -1170,6 +1278,7 @@ border-radius: 6px;
     position: relative;
 
 
+
 }
 
 .W .left {
@@ -1218,6 +1327,7 @@ border-radius: 6px;
 .X {
     width:75px;
     position: relative;
+    margin-left: 70px;
 
 }
 
@@ -1250,6 +1360,7 @@ border-radius: 6px;
 .Y {
     width:75px;
     position: relative;
+    margin-left: 80px;
 
 }
 
@@ -1295,6 +1406,7 @@ border-radius: 6px;
 .Z {
     width:75px;
     position: relative;
+    /*margin-left: 70px;*/
 
 }
 
@@ -2172,5 +2284,34 @@ border-radius: 6px;
 
 
 
+/*Animation*/ 
 
+/*.flip-container {
+  
+  perspective: 600;
+  position: relative;
+  
+}
+.flip {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.flip:hover {
+  transform: rotateY(180deg) ;
+}
+.flip .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.card .back {
+  transform: rotateY(180deg);
+}
+*/
+
+/*End of animation*/
 
