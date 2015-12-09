@@ -1,0 +1,291 @@
+html, body {
+	height: 100%;
+}
+
+body{
+	margin: 0;
+   background-color: #FAE2D7;
+}
+
+
+
+ .animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
+
+.stars
+{
+    margin: 20px 0;
+    font-size: 24px;
+    color: #d17581;
+}
+
+.glyphicon-star-empty:before {
+    content: "\e007";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.element.style {
+}
+.glyphicon:empty {
+    width: 1em;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+div.scroll {
+    /*background-color: #00FFFF;*/
+    width: 900px;
+    height: 500px;
+    overflow: scroll;
+    margin-top: 50px;
+   left:0;
+    
+}
+
+
+.container{
+	background-color: #FAE2D7;
+	position: relative;
+	height: 100%;
+	/*margin-top: -200px;*/
+}
+
+.container2{
+  /*background-color: #FAE2D7;*/
+  position: relative;
+  height: 10px;
+  /*margin-top: -200px;*/
+  left:50px;
+  margin-top: 50px;
+  font-family: Kohinoor Bangla;
+   background-color: #FAE2D7;
+}
+
+
+
+
+@font-face {
+    font-family: 'znikomitregular';
+    src: url('fonts/znikomit-webfont.eot');
+    src: url('fonts/znikomit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/znikomit-webfont.woff2') format('woff2'),
+         url('fonts/znikomit-webfont.woff') format('woff'),
+         url('fonts/znikomit-webfont.ttf') format('truetype'),
+         url('fonts/znikomit-webfont.svg#znikomitregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+  
+
+.container{
+	background-color: #FAE2D7;
+	position: relative;
+	
+m
+}
+
+
+a:hover { 
+    font-weight: bold;
+
+    
+}
+a:active {
+        color: red;
+
+}
+a:visited {
+	color: none;
+
+}
+a {
+	color: red;
+	text-decoration: none;
+}
+.reviews-box {
+font-family: Kohinoor Bangla;
+ width: 800px;
+ border: 2px solid #FAE2D7;
+ margin-left:50px;
+ margin-top: 10px;
+ padding: 5px;
+right: 0; 
+background-color: white;
+
+}
+
+.name {
+	color: blue;
+	font-family: Kohinoor Bangla;
+
+
+}
+
+
+h1 {
+font-family: Kohinoor Bangla;
+color: red;
+ margin-left: 50px;
+
+}
+
+.navigation {
+width:200px;
+position: fixed;
+right: 0;
+bottom: 0;
+top: 0;
+/*margin-left: 20px;*/
+border-left: 2px solid #FAE2D7;
+background: white;
+z-index: 7;
+}
+
+.navigation a {
+  /*-webkit-transform: rotate(90deg);*/
+  /*margin-top: 150px;*/
+  font-size: 20px;
+  text-align: center;
+  font-family: Kohinoor Bangla;
+  border-bottom: 2px solid #FAE2D7;
+  display: block;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation a:last-child {
+  border-bottom: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+.title { 
+width: 100px;
+height: 100px;
+font-size: 10px; }
+
+.navigation {
+    height: 200px;
+    position: static;
+    width: 100%;
+    border: 0;
+  }
+
+  .reviews-box {
+    width: 700px;
+  }
+  h1{margin-top: 20px}
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .title { 
+width: 10px;
+height: 10px;
+font-size: 10px; }
+
+.navigation {
+    height: 200px;
+    position: static;
+    width: 100%;
+    border: 0;
+  }
+
+  h1 {
+    margin-top: 20px;}
+
+
+    .reviews-box {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    height: 200px;
+    position: static;
+    width: 100%;
+    border: 0;
+  }
+  
+  .reviews-box {
+    width: 400px;
+  }
+   h1{margin-top: 20px}
+}
+
+
+@media screen and (max-width: 480px) {
+  .navigation {
+    height: 200px;
+    position: static;
+    width: 100%;
+    border: 0;
+  }
+      h1 {
+    margin-top: 20px;}
+   
+
+  .reviews-box {
+    width: 300px;
+    margin-right: 0;
+  }
+}
+  
+
+
+@media screen and (max-width: 320px) {
+
+  .navigation {
+    height: 200px;
+    position: static;
+    width: 100%;
+    border: 0;
+    margin-right: 0;
+  }
+
+    h1 {
+    margin-top: 20px;}
+
+    .reviews-box {
+    width: 200px;
+    margin-right: 0;
+  }
+}
+
+
+
+
+
+
+
