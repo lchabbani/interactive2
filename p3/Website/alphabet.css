@@ -58,6 +58,18 @@ background-color: #DDDDDD;
 
 }
 
+.app{
+    text-align: center;
+    width: 7px;
+    height: 148px;
+    position: fixed;
+    top: 0;
+    left: 65px;
+    background-color: yellow;
+    border-radius: 6px; 
+
+}
+
 
 .letter {
 height:148px;
@@ -927,10 +939,10 @@ border-radius: 6px;
 
 
 
-
 .P {
     width:75px;
     position: relative;
+
 
 
 }

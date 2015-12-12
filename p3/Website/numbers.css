@@ -70,6 +70,18 @@ width:480px;
 
 
 
+.app{
+    text-align: center;
+    width: 7px;
+    height: 148px;
+    position: fixed;
+    top: 0;
+    left: 65px;
+    background-color: orange;
+    border-radius: 6px; 
+
+}
+
 
 
 .letter {
